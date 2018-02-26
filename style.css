@@ -1,0 +1,238 @@
+body {
+	/*background image*/
+   background-image: url("../img/AD546.jpg");
+}
+/*Logo Centered & Size (Block) */
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	height: 200px;
+
+}
+
+/*Menu (Inline)*/
+/*Remove bullets*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+
+    
+}
+/*change inline Menu to  */
+/*Add space*/
+li {
+    display: inline;
+    width: 60px;
+    }
+/*space inbetween Menu Items*/
+li a {
+	padding: 15px;
+
+}
+#menucolor{
+	background-color: #000000;
+}
+
+#mColor{
+	background-color: ##F0F8FF;
+}
+/*Login Centerd (class)*/
+/*padding = add space whereever you tell it
+padding-top = is to push down */
+#login{
+	text-align: center;	
+}
+
+#loginText {
+font-size: 30px;
+
+}
+
+/*form centered*/
+#form {
+	text-align: center;
+
+/*padding for UI & PW*/
+}
+/*change font size for user*/
+#uidDiv{
+	padding-bottom: 30px;
+	font-size: 20px;
+
+}
+/*user ID textbox length*/
+#uidText{
+	padding-right: 12px;
+	padding-top: 15px;
+}
+#UserID{
+	height: 25px;
+}
+/*change font size for password*/
+
+#pwdDiv{
+	font-size: 20px;
+}
+
+#Password{
+	height: 25px;
+}
+
+#enterHP{
+	text-align: center;
+	padding-top: 15px;
+
+}
+#buttonText{
+		font-size: 20px;
+		background-color: #00BFFF;
+		border: solid;
+x}
+
+/*end of styling for home page*/
+
+
+/* Search bar*/
+input[type=text] {
+    width: 360px;
+    -webkit-transition: width 0.6s ease-in-out;
+    transition: width 0.6s ease-in-out;
+}
+/*Password Validation*/
+
+#pwshow{
+	font-size: 20px;
+	height: 25px;
+}
+/*Deactivate page switch */
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+  text-align: center;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+/*Select Menu Button */
+
+ /*Menu sidebar*/
+ * Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+
+
+/*Sign up Form*/
