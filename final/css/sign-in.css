@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.body.container {
+	width: 991px;
+	margin: 0 auto;
+}
+
+.modal {
+	text-align: center;
+
+	padding: 20px;
+	padding-bottom: 40px;
+
+	margin: 0 auto;
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	width: 600px;
+	color: #4CAF50;
+
+	background-color: #333;
+}
+
+body::before {
+	content: "";
+	background-image: url("images/logo.png");
+	background-size: 300px 120px;
+
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	margin-left: -120px;
+	width: 300px;
+	height: 120px;
+}
+
+input, button
+{
+	width: 300px;
+	height: 30px;
+	margin: 10px;
+	text-align: center;
+}
+
+button {
+	width: 200px;
+}
+
+select
+{
+	width: 300px;
+	height: 30px;
+	margin: 10px;
+	text-align: center;
+}
+
+
